@@ -39,16 +39,18 @@ Manager.prototype.addEmployee = function(employee) {
   }
 }
 
-// Console.log test(s) that show that line 16 is working:
+// ** Console.log test(s) that show that line 16 is working:
 var manager = new Manager('Hasan', 'IT', 4000);
 console.log('has name property: ', manager.hasOwnProperty('name'));
 
-// Console.log test(s) that show that line 22 is working:
+// ** Console.log test(s) that show that line 22 is working:
 
 // fallback onto functions from the superclass Employee
 // can call getPaid using Manager class instances
 console.log('Give me my money! ', manager.getPaid());
 
-// Console.log test(s) that show that line 23 is working: 
+// ** Console.log test(s) that show that line 23 is working: 
+console.log('Constructor of manager is Employee: ', manager.constructor === Employee);
+console.log('Constructor of manager is Manager: ', manager.constructor === Manager);
 
 
