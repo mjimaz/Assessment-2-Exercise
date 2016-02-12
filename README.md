@@ -19,3 +19,6 @@
 
 
 //What's happening on line 26? Why can't we just do this.work(hours)?
+
+Because if work is omitted, the called function will be the Manager's
+To call the parent's inherited function explicitly, the superclass Employee is specified. 
