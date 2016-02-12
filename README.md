@@ -1,4 +1,4 @@
-# Assessment-3-Exercise
+# Assessment-2-Exercise
 
 // README - Please write tests to show that Manager is properly subclassed
 // from Employee in the pseudoclassical pattern and answer the 
