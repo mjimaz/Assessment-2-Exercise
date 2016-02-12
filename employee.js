@@ -40,6 +40,9 @@ Manager.prototype.addEmployee = function(employee) {
 }
 
 // Console.log test(s) that show that line 16 is working:
+var manager = new Manager('Hasan', 'IT', 4000);
+console.log('has name property: ', manager.hasOwnProperty('name'));
+
 // Console.log test(s) that show that line 22 is working:
 // Console.log test(s) that show that line 23 is working: 
 
